@@ -35,6 +35,22 @@ namespace EjercicioClase13
             nuevaBilletera.BilletesDe500 = primeraBilletera.BilletesDe500 + segundaBilletera.BilletesDe500;
             nuevaBilletera.BilletesDe1000 = primeraBilletera.BilletesDe1000 + segundaBilletera.BilletesDe1000;
 
+            primeraBilletera.BilletesDe10 = 0;
+            primeraBilletera.BilletesDe20 = 0;
+            primeraBilletera.BilletesDe50 = 0;
+            primeraBilletera.BilletesDe100 = 0;
+            primeraBilletera.BilletesDe200 = 0;
+            primeraBilletera.BilletesDe500 = 0;
+            primeraBilletera.BilletesDe1000 = 0;
+
+            segundaBilletera.BilletesDe10 = 0;
+            segundaBilletera.BilletesDe20 = 0;
+            segundaBilletera.BilletesDe50 = 0;
+            segundaBilletera.BilletesDe100 = 0;
+            segundaBilletera.BilletesDe200 = 0;
+            segundaBilletera.BilletesDe500 = 0;
+            segundaBilletera.BilletesDe1000 = 0;
+
             return nuevaBilletera;
         }
     }
